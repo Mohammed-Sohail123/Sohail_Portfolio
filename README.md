@@ -1,209 +1,164 @@
-# Sohail_Portfolio
+# 👨‍💻 Mohammed Sohail — Full-Stack Developer
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Portfolio-Full--Stack%20Developer-483f7c?style=for-the-badge" alt="Portfolio" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <a href="https://sohail-portfolio-five.vercel.app">
+    <img src="https://img.shields.io/badge/🌐%20Live%20Portfolio-Visit%20Website-483f7c?style=for-the-badge" alt="Live Portfolio" />
+  </a>
+  <a href="https://www.linkedin.com/in/mohammed-sohail-34b248286/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:sohailmohammedsohail268@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
 </p>
 
 <p align="center">
-  Personal developer portfolio showcasing my projects, technical skills, experience, and work in modern web development.
+  <strong>Building modern, scalable and user-focused web applications.</strong>
+</p>
+
+<p align="center">
+  React • Next.js • TypeScript • Node.js • Java • Spring Boot • PostgreSQL • MySQL • MongoDB
 </p>
 
 ---
 
-## 👨‍💻 About Me
+## 🚀 About Me
 
-Hi, I'm **Mohammed Sohail**, a Full-Stack Developer with hands-on experience building modern, responsive, and scalable web applications.
+Hi, I'm **Mohammed Sohail**, a Full-Stack Developer focused on building modern web applications from frontend interfaces to backend APIs and databases.
 
-I work primarily with **React, Next.js, TypeScript, Node.js, Java, and Spring Boot**, with experience developing frontend interfaces, REST APIs, database-driven applications, authentication systems, dashboards, financial applications, and production-ready web solutions.
+I enjoy working on real-world applications where I can solve problems across the complete development stack — from designing responsive interfaces and integrating APIs to building backend services, working with databases, improving SEO, and preparing applications for production.
 
-I enjoy turning ideas and business requirements into clean, functional, and user-friendly digital products.
+### What I work with
 
----
-
-## 🚀 Portfolio
-
-This repository contains my personal developer portfolio, where I showcase:
-
-- 💼 Professional experience
-- 🚀 Full-stack projects
-- 🎨 Frontend development work
-- ⚙️ Backend development
-- 📊 Data-driven applications
-- 📱 Responsive web applications
-- 🧩 Technical skills
-- 🛠️ Tools and technologies
-- 📚 Education and background
-- 📬 Contact information
+- ⚛️ Modern frontend applications with React & Next.js
+- 🔷 TypeScript & JavaScript development
+- 🟢 Backend APIs with Node.js & Express
+- ☕ Java & Spring Boot applications
+- 🗄️ PostgreSQL, MySQL & MongoDB
+- 🔌 REST API development & integration
+- 📊 Data-driven dashboards and financial applications
+- 🔐 Authentication & authorization
+- 🔎 Technical SEO & web performance
+- 📱 Responsive and accessible interfaces
+- 🚀 Production deployment and debugging
 
 ---
 
-## 🛠️ Tech Stack
+## 🌐 Live Portfolio
 
-### Frontend
+### [🚀 Visit My Portfolio](https://sohail-portfolio-five.vercel.app)
 
-- React.js
+My portfolio contains:
+
+- Professional experience
+- Technical skills
+- Featured projects
+- Development work
+- Education
+- Contact information
+- Technologies I work with
+
+---
+
+# 🧰 Tech Stack
+
+## Frontend
+
+<p>
+  <img src="https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+</p>
+
+### Frontend Tools
+
+- React
 - Next.js
 - TypeScript
 - JavaScript
-- HTML5
-- CSS3
+- Vite
 - Tailwind CSS
 - Redux Toolkit
 - React Query
-
-### Backend
-
-- Node.js
-- Express.js
-- Java
-- Spring Boot
-- REST APIs
-
-### Databases
-
-- PostgreSQL
-- MySQL
-- MongoDB
-
-### Development Tools
-
-- Git
-- GitHub
-- VS Code
-- Postman
-- npm
-- Vite
-
-### Other Technologies
-
-- RESTful APIs
-- Authentication & Authorization
-- API Integration
+- Chart.js
 - Responsive Design
-- SEO
-- Web Analytics
-- State Management
-- Database Integration
+- Component-based Architecture
 
 ---
 
-## 📌 Featured Projects
+## Backend
 
-### 📈 Stock Analysis & Virtual Portfolio
+<p>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
+</p>
 
-A stock analysis platform designed to provide users with financial market information and portfolio management capabilities.
+### Backend Experience
 
-**Key Features:**
-
-- Stock search and discovery
-- Stock details and financial information
-- Watchlist management
-- Virtual portfolio
-- Financial reports
-- Interactive charts
-- Market data integration
-- Responsive dashboard
-
-**Technologies:**
-
-`React` `Vite` `JavaScript` `Redux Toolkit` `Node.js` `REST API` `MySQL`
-
----
-
-### 💰 Atruha Finance
-
-A financial information and analysis platform focused on providing company financial data, reports, ratios, valuation information, and financial insights.
-
-**Key Features:**
-
-- Company financial analysis
-- Balance Sheet
-- Income Statement
-- Cash Flow
-- Financial Ratios
-- Valuation information
-- Financial reports
-- Article and research content
-- Multilingual support
-- Analytics
-- SEO optimization
-
-**Technologies:**
-
-`React` `Next.js` `Node.js` `REST APIs` `MySQL` `MongoDB` `JavaScript` `TypeScript`
+- REST API development
+- API integration
+- Authentication & authorization
+- Server-side validation
+- Database integration
+- Error handling
+- API testing
+- Backend debugging
 
 ---
 
-### 🤖 ATMEZ AI Solutions
+# 🗄️ Databases
 
-A modern business website and landing page developed using Next.js and TypeScript.
-
-**Key Features:**
-
-- Responsive design
-- Modern UI/UX
-- Dark and light mode
-- Multilingual support
-- Mega navigation menu
-- SEO-friendly structure
-- Reusable components
-- Responsive layouts
-
-**Technologies:**
-
-`Next.js` `TypeScript` `React` `Tailwind CSS` `next-themes`
+<p>
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+</p>
 
 ---
 
-## 💼 What I Do
+# 🛠️ Tools & Platforms
 
-### Frontend Development
-
-I build responsive and interactive user interfaces using React and Next.js with a focus on reusable components, maintainability, performance, and user experience.
-
-### Backend Development
-
-I develop REST APIs and backend services using Node.js, Express.js, Java, and Spring Boot.
-
-### Full-Stack Development
-
-I work across the frontend, backend, database, and API layers to build complete web applications.
-
-### Database Development
-
-I work with relational and NoSQL databases including PostgreSQL, MySQL, and MongoDB.
-
-### API Integration
-
-I integrate third-party and internal REST APIs to build data-driven applications and dynamic user experiences.
-
-### SEO & Performance
-
-I work on technical SEO, metadata, structured data, sitemap configuration, indexing, performance optimization, and analytics.
+<p>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+</p>
 
 ---
 
-## 📊 Development Focus
+# ⭐ Featured Projects
 
-My development approach focuses on:
+## 📈 1. Stock Analysis & Virtual Portfolio
+
+A full-stack stock analysis application that provides users with market information, stock details, watchlists, and virtual portfolio functionality.
+
+### Key Features
+
+- 🔍 Stock search
+- 📊 Stock details
+- 📋 Watchlist management
+- 💼 Virtual portfolio
+- 📈 Interactive charts
+- 💰 Financial information
+- 🔄 API-driven market data
+- 📱 Responsive dashboard
+
+### Technologies
 
 ```text
-Clean Code
-    ↓
-Reusable Components
-    ↓
-Scalable Architecture
-    ↓
-API Integration
-    ↓
-Database Design
-    ↓
-Testing & Debugging
-    ↓
-Performance & SEO
-    ↓
-Production Deployment
+React
+Vite
+JavaScript
+Redux Toolkit
+Node.js
+REST APIs
+MySQL
+Chart.js
