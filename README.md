@@ -13,7 +13,7 @@
     <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
     <a href="https://sohail-portfolio-five.vercel.app">
-    <img src="https://img.shields.io/badge/🌐%20Live%20Portfolio-Visit%20Portfolio-483f7c?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/🌐%20Live%20Portfolio-483f7c?style=for-the-badge" />
   </a>
 </p>
 
