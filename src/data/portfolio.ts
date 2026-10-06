@@ -30,6 +30,7 @@ export const profile = {
   email: 'sohailmohammedsohail268@gmail.com',
   github: 'https://github.com/Mohammed-Sohail123',
   linkedin: 'https://www.linkedin.com/in/mohammed-sohail-34b248286/',
+  siteUrl: 'https://sohail-portfolio-five.vercel.app/',
 }
 
 export const navItems = [
@@ -130,6 +131,7 @@ export const projects: Project[] = [
     category: 'Personal',
     description: 'Premium developer portfolio with motion, accessible interactions, smooth scrolling, and an ATS-friendly printable resume.',
     technologies: ['React', 'TypeScript', 'Vite', 'Framer Motion'],
+    liveUrl: profile.siteUrl,
     githubUrl: profile.github,
   },
   {
