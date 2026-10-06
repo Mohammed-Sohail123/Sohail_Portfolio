@@ -354,8 +354,8 @@ Software Engineer | Full Stack Developer
   <ProjectItem
   name="Developer Portfolio"
   stack="React.js · Vite · TailwindCSS · Framer Motion"
-  href="sohail-portfolio-five.vercel.app"
-  url= "Sohail-Portfolio"
+  href="https://sohail-portfolio-five.vercel.app/"
+  url="sohail-portfolio-five.vercel.app"
   bullets={[
     'Designed and developed a modern developer portfolio showcasing enterprise projects with immersive animations, responsive UI, and smooth user interactions.',
     'Implemented an ATS-friendly printable resume, optimized SEO, and automated deployment using GitHub Actions and Vercel CI/CD.',
