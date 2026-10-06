@@ -1,164 +1,432 @@
-# 👨‍💻 Mohammed Sohail — Full-Stack Developer
+# 👨‍💻 Mohammed Sohail
+
+### Software Engineer | Full-Stack Developer
 
 <p align="center">
-  <a href="https://sohail-portfolio-five.vercel.app">
-    <img src="https://img.shields.io/badge/🌐%20Live%20Portfolio-Visit%20Website-483f7c?style=for-the-badge" alt="Live Portfolio" />
-  </a>
+<a href="https://sohail-portfolio-five.vercel.app">
+    <img src="https://img.shields.io/badge/🌐%20Live%20Portfolio-Visit%20Portfolio-483f7c?style=for-the-badge" />
+</a>
   <a href="https://www.linkedin.com/in/mohammed-sohail-34b248286/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:sohailmohammedsohail268@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+    <a href="https://sohail-portfolio-five.vercel.app">
+    <img src="https://img.shields.io/badge/🌐%20Live%20Portfolio-Visit%20Portfolio-483f7c?style=for-the-badge" />
   </a>
 </p>
 
 <p align="center">
-  <strong>Building modern, scalable and user-focused web applications.</strong>
+  <strong>
+    Building scalable, secure and user-focused web & mobile applications.
+  </strong>
 </p>
 
 <p align="center">
-  React • Next.js • TypeScript • Node.js • Java • Spring Boot • PostgreSQL • MySQL • MongoDB
+  React.js • Next.js • TypeScript • Node.js • Spring Boot • Flutter • MySQL • PostgreSQL • MongoDB
 </p>
 
 ---
 
-## 🚀 About Me
+# 👋 About Me
 
-Hi, I'm **Mohammed Sohail**, a Full-Stack Developer focused on building modern web applications from frontend interfaces to backend APIs and databases.
+I'm **Mohammed Sohail**, a Software Engineer and Full-Stack Developer with **2+ years of hands-on experience** designing, developing, and deploying web and mobile applications.
 
-I enjoy working on real-world applications where I can solve problems across the complete development stack — from designing responsive interfaces and integrating APIs to building backend services, working with databases, improving SEO, and preparing applications for production.
+I enjoy working across the complete software development lifecycle — from designing responsive user interfaces and building REST APIs to database integration, authentication, performance optimization, testing, SEO, and production deployment.
 
-### What I work with
+I've contributed to and built production solutions across **finance, HR, education, e-commerce, and AI-related domains**.
 
-- ⚛️ Modern frontend applications with React & Next.js
-- 🔷 TypeScript & JavaScript development
-- 🟢 Backend APIs with Node.js & Express
-- ☕ Java & Spring Boot applications
-- 🗄️ PostgreSQL, MySQL & MongoDB
-- 🔌 REST API development & integration
-- 📊 Data-driven dashboards and financial applications
-- 🔐 Authentication & authorization
-- 🔎 Technical SEO & web performance
-- 📱 Responsive and accessible interfaces
-- 🚀 Production deployment and debugging
+One of my published mobile applications has reached **30,000+ downloads** across Google Play and the Apple App Store.
 
----
+### 🚀 What I Do
 
-## 🌐 Live Portfolio
-
-### [🚀 Visit My Portfolio](https://sohail-portfolio-five.vercel.app)
-
-My portfolio contains:
-
-- Professional experience
-- Technical skills
-- Featured projects
-- Development work
-- Education
-- Contact information
-- Technologies I work with
+- Full-Stack Web Development
+- React.js & Next.js Development
+- REST API Development
+- Backend Development with Node.js & Spring Boot
+- Database Design & Integration
+- Authentication & Authorization
+- Payment Gateway Integration
+- Performance Optimization
+- Responsive UI Development
+- Mobile Application Development with Flutter
+- SEO & Web Analytics
+- Testing & Debugging
+- CI/CD & Deployment
 
 ---
 
 # 🧰 Tech Stack
 
-## Frontend
+## 💻 Programming Languages
+
+<p>
+  <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" />
+</p>
+
+---
+
+## 🎨 Frontend Development
 
 <p>
   <img src="https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redux_Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white" />
 </p>
 
-### Frontend Tools
-
-- React
+- React.js
 - Next.js
 - TypeScript
-- JavaScript
-- Vite
-- Tailwind CSS
+- TailwindCSS
+- Bootstrap
 - Redux Toolkit
-- React Query
-- Chart.js
+- Framer Motion
+- Three.js
+- HTML5
+- CSS3
 - Responsive Design
-- Component-based Architecture
+- Component-Based Architecture
 
 ---
 
-## Backend
+## ⚙️ Backend Development
 
 <p>
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
   <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
 </p>
 
-### Backend Experience
-
-- REST API development
-- API integration
-- Authentication & authorization
-- Server-side validation
-- Database integration
-- Error handling
-- API testing
-- Backend debugging
+- Node.js
+- Express.js
+- Spring Boot
+- ASP.NET Core
+- RESTful APIs
+- JWT Authentication
+- WebSocket
+- API Integration
+- Backend Architecture
 
 ---
 
 # 🗄️ Databases
 
 <p>
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Firebase_Firestore-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
 </p>
 
 ---
 
-# 🛠️ Tools & Platforms
+# 📱 Mobile Development
+
+<p>
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
+</p>
+
+- Flutter
+- Dart
+- Firebase Authentication
+- Firebase Cloud Messaging
+- Riverpod
+- Hive
+- Offline-first applications
+- Push Notifications
+- Multilingual Applications
+
+---
+
+# ☁️ Cloud, DevOps & Tools
 
 <p>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black" />
 </p>
+
+- Git
+- GitHub
+- Docker
+- CI/CD
+- AWS
+- Vercel
+- Render
+- Hostinger
+- Postman
+- API Testing
 
 ---
 
-# ⭐ Featured Projects
+# 🧪 Testing
 
-## 📈 1. Stock Analysis & Virtual Portfolio
+- Playwright
+- Unit Testing
+- API Testing
+- Debugging
+- Integration Testing
+- Production Issue Analysis
 
-A full-stack stock analysis application that provides users with market information, stock details, watchlists, and virtual portfolio functionality.
+---
 
-### Key Features
+# 🚀 Featured Projects
 
-- 🔍 Stock search
-- 📊 Stock details
-- 📋 Watchlist management
-- 💼 Virtual portfolio
-- 📈 Interactive charts
-- 💰 Financial information
-- 🔄 API-driven market data
-- 📱 Responsive dashboard
+## 📈 Atruha Finance
 
-### Technologies
+**Financial Analytics Platform**
+
+🔗 **[Visit Website](https://atruhafinance.com)**
+
+A production-grade financial analytics platform providing stock tracking, portfolio management, financial information, interactive dashboards, and secure authentication.
+
+### Highlights
+
+- 📊 Real-time stock tracking
+- 💼 Portfolio management
+- 📈 Interactive financial dashboards
+- 🔐 JWT-based authentication
+- ⚡ REST API optimization
+- 🧩 Reusable React architecture
+- 🚀 Lazy loading
+- 🔎 SEO optimization
+- 📊 Analytics integration
+
+### Tech Stack
+
+`React.js` `Node.js` `MySQL` `Redux Toolkit` `TailwindCSS` `REST APIs`
+
+---
+
+# 👥 StafWise
+
+**Enterprise HR Management Platform**
+
+🔗 **[Visit Website](https://stafwise.com)**
+
+Enterprise HR management software designed to streamline employee onboarding, attendance, payroll, scheduling, reporting, and organizational workflows.
+
+### Highlights
+
+- Employee onboarding
+- Attendance management
+- Payroll processing
+- Scheduling
+- Reporting dashboards
+- Role-based access control
+- JWT authentication
+- RESTful APIs
+
+### Tech Stack
+
+`React.js` `Node.js` `MySQL` `TailwindCSS` `JWT`
+
+---
+
+# 🎓 Acadlync
+
+**Academic Management Platform**
+
+🔗 **[Visit Platform](https://acadlynk.atmez.ai)**
+
+A multi-role academic management platform designed for administrators, teachers, and students.
+
+### Highlights
+
+- 👨‍🎓 Student enrollment
+- 📅 Timetable management
+- 📝 Grade management
+- 👨‍🏫 Teacher management
+- 🔐 Multi-role authentication
+- 📊 Analytics dashboards
+- 🔌 REST API integration
+
+### Tech Stack
+
+`React.js` `TypeScript` `PostgreSQL` `REST APIs`
+
+---
+
+# 🏢 Employee Management System
+
+**Enterprise Employee Management Platform**
+
+🔗 **[Visit Platform](https://ems.atmez.ai)**
+
+An enterprise employee management solution focused on automating HR workflows and improving organizational administration.
+
+### Highlights
+
+- Attendance management
+- Leave management
+- Department administration
+- Analytics dashboards
+- Role-based access control
+- Reusable React components
+- Optimized backend APIs
+
+### Tech Stack
+
+`React.js` `TypeScript` `MySQL` `REST APIs`
+
+---
+
+# 🛒 E-Commerce Platform
+
+**Full-Stack E-Commerce Application**
+
+A scalable e-commerce platform with complete product, cart, payment, inventory, authentication, and order management workflows.
+
+### Highlights
+
+- 🛍️ Product catalog
+- 🛒 Shopping cart
+- 💳 Razorpay payment integration
+- 📦 Inventory management
+- 🔐 Authentication
+- 🚚 Order tracking
+- ⚡ Redis caching
+- 🗄️ Database query optimization
+
+### Tech Stack
+
+`React.js` `Node.js` `MySQL` `Razorpay` `Redis`
+
+---
+
+# 📱 Islamic Hijri Calendar
+
+**Cross-Platform Mobile Application**
+
+A published Islamic calendar application built with Flutter and Firebase.
+
+### 📊 30,000+ Downloads
+
+Available on:
+
+- Google Play
+- Apple App Store
+
+### Highlights
+
+- 📅 Islamic Hijri calendar
+- 🌍 Multilingual support
+- 🔐 Firebase Authentication
+- 🔔 Firebase Cloud Messaging
+- 📲 Push notifications
+- ⚡ Riverpod state management
+- 💾 Hive offline storage
+- 📡 Offline-first experience
+
+### Tech Stack
+
+`Flutter` `Dart` `Firebase` `Riverpod` `Hive` `FCM`
+
+---
+
+# 🌐 Developer Portfolio
+
+🔗 **[sohail-portfolio-five.vercel.app](https://sohail-portfolio-five.vercel.app)**
+
+My personal developer portfolio showcasing my professional experience, projects, technical skills, and development work.
+
+### Highlights
+
+- Modern responsive UI
+- Immersive animations
+- Smooth interactions
+- ATS-friendly printable resume
+- SEO optimization
+- Automated deployment
+- GitHub Actions
+- Vercel CI/CD
+
+### Tech Stack
+
+`React.js` `Vite` `TailwindCSS` `Framer Motion`
+
+---
+
+# 🧠 Academic & AI Projects
+
+## 🕵️ Spammer Detection & Fake User Identification
+
+A graph-based social network analysis system designed to identify spam accounts and fake users.
+
+### Approach
+
+- Graph algorithms
+- Social network analysis
+- User behavior analysis
+- Follower relationship analysis
+- Engagement metrics
+- Posting pattern analysis
+
+**Detection Accuracy:** 87%
+
+### Tech Stack
+
+`Java` `Graph Algorithms` `Social Network Analysis`
+
+---
+
+## 👁️ Eye Controlled Mouse
+
+A computer vision-based Human-Computer Interaction system enabling hands-free cursor movement.
+
+### Features
+
+- Real-time eye tracking
+- Facial landmark detection
+- Eye movement recognition
+- Blink detection
+- Head gesture recognition
+- Hands-free cursor control
+
+### Tech Stack
+
+`Python` `OpenCV` `Dlib` `PyAutoGUI` `Computer Vision`
+
+---
+
+# 🏗️ Engineering Principles
+
+I focus on building software that is:
 
 ```text
-React
-Vite
-JavaScript
-Redux Toolkit
-Node.js
-REST APIs
-MySQL
-Chart.js
+                    ┌─────────────────┐
+                    │  User Problem   │
+                    └────────┬────────┘
+                             ↓
+                    ┌─────────────────┐
+                    │ Solution Design │
+                    └────────┬────────┘
+                             ↓
+             ┌───────────────┼───────────────┐
+             ↓               ↓               ↓
+        Frontend          Backend         Database
+             │               │               │
+             └───────────────┼───────────────┘
+                             ↓
+                    API Integration
+                             ↓
+                       Testing / QA
+                             ↓
+                    Performance Tuning
+                             ↓
+                       CI/CD Deploy
+                             ↓
+                     Monitor & Improve
