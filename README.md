@@ -4,7 +4,7 @@
 
 <p align="center">
 <a href="https://sohail-portfolio-five.vercel.app">
-    <img src="https://img.shields.io/badge/🌐%20Live%20Portfolio-Visit%20Portfolio-483f7c?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/🌐%20Live%20Portfolio-483f7c?style=for-the-badge" />
 </a>
   <a href="https://www.linkedin.com/in/mohammed-sohail-34b248286/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
