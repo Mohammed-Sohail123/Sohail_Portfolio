@@ -8,15 +8,15 @@
   </a>
 
   <a href="https://github.com/Mohammed-Sohail123">
-    <img src="https://img.shields.io/badge/GitHub-View%20Repositories-181717?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/💻%20GitHub-View%20Repositories-181717?style=for-the-badge" />
   </a>
 
   <a href="https://www.linkedin.com/in/mohammed-sohail-34b248286/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/💼%20LinkedIn-Connect-0A66C2?style=for-the-badge" />
   </a>
 
   <a href="mailto:sohailmohammedsohail268@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/📧%20Email-Contact-D14836?style=for-the-badge" />
   </a>
 </p>
 
