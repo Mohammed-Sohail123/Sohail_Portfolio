@@ -4,19 +4,19 @@
 
 <p align="center">
   <a href="https://sohail-portfolio-five.vercel.app">
-    <img src="https://img.shields.io/badge/🌐%20Live%20Portfolio-Visit%20Portfolio-483f7c?style=for-the-badge" />
+    🌐 <strong>Live Portfolio</strong>
   </a>
-
+  &nbsp;&nbsp;•&nbsp;&nbsp;
   <a href="https://github.com/Mohammed-Sohail123">
-    <img src="https://img.shields.io/badge/💻%20GitHub-View%20Repositories-181717?style=for-the-badge" />
+    💻 <strong>GitHub</strong>
   </a>
-
+  &nbsp;&nbsp;•&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/mohammed-sohail-34b248286/">
-    <img src="https://img.shields.io/badge/💼%20LinkedIn-Connect-0A66C2?style=for-the-badge" />
+    💼 <strong>LinkedIn</strong>
   </a>
-
+  &nbsp;&nbsp;•&nbsp;&nbsp;
   <a href="mailto:sohailmohammedsohail268@gmail.com">
-    <img src="https://img.shields.io/badge/📧%20Email-Contact-D14836?style=for-the-badge" />
+    📧 <strong>Email</strong>
   </a>
 </p>
 
