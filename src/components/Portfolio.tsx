@@ -380,6 +380,18 @@ function HeroSection() {
           </motion.div>
         </Reveal>
 
+        <Reveal delay={0.05}>
+          <div className="flex justify-center mb-8">
+            <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full p-1 bg-gradient-to-r from-purple-500 via-pink-500 to-cyan-400">
+              <img
+                src="/sohail2.png"
+                alt={profile.name}
+                className="w-full h-full rounded-full object-cover border-4 border-[#030014]"
+              />
+            </div>
+          </div>
+        </Reveal>
+
         <Reveal delay={0.1}>
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight">
             <span className="text-white">Hi, I'm </span>
