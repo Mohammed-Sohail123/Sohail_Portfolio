@@ -397,14 +397,6 @@ Software Engineer | Full Stack Developer
   ]}
 />
 
-      <ProjectItem
-  name="Human Interaction with - Eye Controlled Mouse"
-  stack="Python · OpenCV · Dlib · PyAutoGUI · Computer Vision"
-  bullets={[
-    'Developed a computer vision–based Human Computer Interaction (HCI) system enabling hands-free cursor movement using real-time eye tracking and facial landmark detection. Integrated OpenCV, Dlib, and PyAutoGUI to recognize eye movements, blinking, and head gestures.',
-  ]}
-/>
-
         {/* <ProjectItem
           name="School Management System"
           stack="Angular · Django · PostgreSQL · REST Framework"

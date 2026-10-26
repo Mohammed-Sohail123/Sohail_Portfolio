@@ -67,9 +67,6 @@ const projects = [
 
   para([run('Spammer Detection & Fake User Identification', { bold: true, color: DARK }), run('  Java · Graph Algorithms · Social Network Analysis', { color: ACCENT, italics: true })], 0),
   bullet('Graph-based social network analysis system to identify spam accounts and fake users by analyzing behavior, follower relationships, and engagement metrics, achieving 87% detection accuracy on simulated datasets.'),
-
-  para([run('Eye Controlled Mouse', { bold: true, color: DARK }), run('  Python · OpenCV · Dlib · PyAutoGUI', { color: ACCENT, italics: true })], 0),
-  bullet('Computer vision-based HCI system enabling hands-free cursor movement using real-time eye tracking and facial landmark detection.'),
 ];
 
 const awards = [
