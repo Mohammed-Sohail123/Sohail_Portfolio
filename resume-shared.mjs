@@ -74,10 +74,10 @@ export function skillsGrid(rows) {
 
   const cellParas = items => items.map(({ label, value }) =>
     new Paragraph({
-      spacing: { after: pt(4) },
+      spacing: { after: pt(6) },
       children: [
-        new TextRun({ text: `${label}:  `, bold: true, size: pt(10.5), color: DARK, font: FONT }),
-        new TextRun({ text: value, size: pt(10.5), color: BODY, font: FONT }),
+        new TextRun({ text: `${label}:`, bold: true, size: pt(10.5), color: DARK, font: FONT }),
+        new TextRun({ text: value, size: pt(10.5), color: BODY, font: FONT, break: 1 }),
       ],
     })
   );

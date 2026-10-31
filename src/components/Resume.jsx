@@ -207,7 +207,7 @@ Software Engineer | Full Stack Developer
 
 </ul>
 
-      <JobHeader
+      {/* <JobHeader
   title="Python Full Stack Developer — Trainee"
   company="Quality Thoughts (iHub) · Hyderabad, India"
   dates="July 2024 – December 2024"
@@ -227,7 +227,7 @@ Software Engineer | Full Stack Developer
     Strengthened core software engineering fundamentals — data structures, OOP, version control with Git, and debugging — through guided labs and project reviews.
   </Bullet>
 
-</ul>
+</ul> */}
 
 <SectionTitle>Technical Expertise</SectionTitle>
 
@@ -322,7 +322,7 @@ Software Engineer | Full Stack Developer
         {/* Web Apps */}
         <p className="text-[11px] font-bold uppercase tracking-widest text-[#6B7280] mt-1 mb-0">Web Apps</p>
 
-        <ProjectItem
+  <ProjectItem
   name="Atruha Finance"
   stack="React.js · Node.js · MySQL · Redux Toolkit · TailwindCSS"
   url="atruhafinance.com"
@@ -456,7 +456,7 @@ Software Engineer | Full Stack Developer
 />
 
 <EduRow
-  degree="Diploma in Mechnical Engineering"
+  degree="Diploma in Mechanical Engineering"
   institution="Government Polytechnic, Kotagiri (SBTET)"
   year="2021"
   pct="78.69%"
