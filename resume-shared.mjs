@@ -136,8 +136,13 @@ export function buildHeader(headline) {
     }),
     new Paragraph({
       alignment: AlignmentType.CENTER,
-      spacing: { after: pt(12) },
+      spacing: { after: pt(2) },
       children: [new TextRun({ text: 'Portfolio: sohail-portfolio-five.vercel.app', size: pt(10), color: ACCENT, font: FONT })],
+    }),
+    new Paragraph({
+      alignment: AlignmentType.CENTER,
+      spacing: { after: pt(12) },
+      children: [new TextRun({ text: 'Ready to Relocate  ·  Valid Passport', size: pt(10), bold: true, color: DARK, font: FONT })],
     }),
   ];
 }

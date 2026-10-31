@@ -140,6 +140,9 @@ Software Engineer | Full Stack Developer
             &nbsp;|&nbsp;
             <a href="https://sohail-portfolio-five.vercel.app/" target="_blank" rel="noopener noreferrer" className="underline hover:opacity-80">sohail-portfolio-five.vercel.app</a>
           </p>
+          <p className="text-[12px] mt-0.5 font-semibold" style={{ color: '#1A1A2E' }}>
+            Ready to Relocate &nbsp;·&nbsp; Valid Passport
+          </p>
         </header>
 
         {/* ── PROFESSIONAL SUMMARY ── */}
@@ -385,7 +388,7 @@ Software Engineer | Full Stack Developer
 
         
         {/* Academic Projects */}
-<p className="text-[11px] font-bold uppercase tracking-widest text-[#6B7280] mt-2 mb-0">
+{/* <p className="text-[11px] font-bold uppercase tracking-widest text-[#6B7280] mt-2 mb-0">
   Academic Projects
 </p>
 <ProjectItem
@@ -396,6 +399,14 @@ Software Engineer | Full Stack Developer
     'Implemented graph algorithms and heuristic detection techniques, achieving 87% detection accuracy while improving the identification of suspicious accounts across simulated social network datasets.',
   ]}
 />
+
+      <ProjectItem
+  name="Human Interaction with - Eye Controlled Mouse"
+  stack="Python · OpenCV · Dlib · PyAutoGUI · Computer Vision"
+  bullets={[
+    'Developed a computer vision–based Human Computer Interaction (HCI) system enabling hands-free cursor movement using real-time eye tracking and facial landmark detection. Integrated OpenCV, Dlib, and PyAutoGUI to recognize eye movements, blinking, and head gestures.',
+  ]}
+/> */}
 
         {/* <ProjectItem
           name="School Management System"
