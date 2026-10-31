@@ -147,6 +147,17 @@ export function buildHeader(headline) {
   ];
 }
 
+// ─── Fixed factual traineeship (identical across every variant) ──
+// Honest entry: Python Full Stack training program at Quality Thoughts (iHub),
+// completed before the Atmez AI Solutions role began in January 2025.
+export const traineeshipExperience = [
+  leftRight('Python Full Stack Developer — Trainee', 'July 2024 – December 2024'),
+  para(run('Quality Thoughts (iHub) · Hyderabad, India', { color: ACCENT, size: 21 }), 4),
+  bullet('Completed an intensive Python Full Stack training program covering Python, Django, HTML5, CSS3, JavaScript, and MySQL, building and deploying functional web applications from the ground up.'),
+  bullet('Developed hands-on projects applying the MVT architecture, REST API design, authentication, and relational database modeling with Django and MySQL.'),
+  bullet('Strengthened core software engineering fundamentals — data structures, OOP, Git version control, and debugging — through guided labs and project reviews.'),
+];
+
 // ─── Fixed factual education (identical across every variant) ────
 export const educationSection = [
   ...sectionTitle('Education'),

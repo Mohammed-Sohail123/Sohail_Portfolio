@@ -9,7 +9,7 @@
 // Output: Mohammed_Sohail_Resume_DotNet.docx in the project root
 
 import { sectionTitle, para, run, bullet, leftRight, buildHeader, skillsGrid,
-         educationSection, languagesSection, writeResume, DARK, ACCENT } from './resume-shared.mjs';
+         educationSection, languagesSection, traineeshipExperience, writeResume, DARK, ACCENT } from './resume-shared.mjs';
 
 const header = buildHeader('Software Engineer | Full Stack Developer | C# & ASP.NET Core (Certified)');
 
@@ -23,13 +23,15 @@ const summarySection = [
 const experience = [
   ...sectionTitle('Professional Experience'),
 
-  leftRight('Software Engineer — Full Stack Developer', 'July 2024 – Present'),
+  leftRight('Software Engineer — Full Stack Developer', 'January 2025 – Present'),
   para(run('Atmez AI Solutions · Hyderabad, India', { color: ACCENT, size: 21 }), 4),
   bullet('Built enterprise full-stack applications with secure REST APIs, JWT authentication, role-based access control, SQL databases, and React.js frontends.'),
   bullet('Built Atruha Finance with React.js, Node.js, Redux Toolkit, MySQL, and REST APIs, including financial dashboards, stock tracking, portfolio management, and performance optimization.'),
   bullet('Contributed to StafWise and the Employee Management System, covering attendance, payroll, leave, reporting, analytics dashboards, and role-based access control.'),
   bullet('Developed Acadlync with multi-role authentication and REST APIs for enrollment, timetables, and grade management.'),
   bullet('Built an E-Commerce Platform with Razorpay, Redis caching, authentication, and order management.'),
+
+  ...traineeshipExperience,
 ];
 
 const certificationHighlight = [

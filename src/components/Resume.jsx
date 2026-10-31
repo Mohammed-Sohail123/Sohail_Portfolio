@@ -36,37 +36,37 @@ const printStyles = `
 // ── Reusable sub-components ──────────────────────────────────────
 
 const SectionTitle = ({ children }) => (
-  <div className="mt-3 mb-1">
+  <div className="mt-5 mb-2">
     <h2
-      className="text-[15px] font-bold uppercase tracking-[0.18em]"
+      className="text-[16px] font-bold uppercase tracking-[0.18em]"
       style={{ color: '#17558F' }}
     >
       {children}
     </h2>
-    <div className="mt-0.5 border-b-2" style={{ borderColor: '#17558F', opacity: 0.35 }} />
+    <div className="mt-1 border-b-2" style={{ borderColor: '#17558F', opacity: 0.35 }} />
   </div>
 );
 
 const Bullet = ({ children }) => (
-  <li className="flex items-start gap-2 text-[13px] text-[#374151] leading-snug">
-    <span className="mt-0.5 flex-shrink-0 text-[11px]" style={{ color: '#17558F' }}>▸</span>
+  <li className="flex items-start gap-2 text-[13.5px] text-[#374151] leading-relaxed">
+    <span className="mt-1 flex-shrink-0 text-[11px]" style={{ color: '#17558F' }}>▸</span>
     <span>{children}</span>
   </li>
 );
 
 const JobHeader = ({ title, company, dates }) => (
-  <div className="flex flex-wrap justify-between items-baseline gap-x-4 mt-2 mb-0">
-    <span className="font-bold text-[14px] text-[#1A1A2E]">{title}</span>
-    <span className="text-[11px] text-[#6B7280] font-mono">{dates}</span>
-    <div className="w-full text-[12px] mt-0" style={{ color: '#17558F' }}>{company}</div>
+  <div className="flex flex-wrap justify-between items-baseline gap-x-4 mt-3 mb-0">
+    <span className="font-bold text-[15px] text-[#1A1A2E]">{title}</span>
+    <span className="text-[11.5px] text-[#6B7280] font-mono">{dates}</span>
+    <div className="w-full text-[12.5px] mt-0" style={{ color: '#17558F' }}>{company}</div>
   </div>
 );
 
 const ProjectItem = ({ name, stack, url, href, googlePlay, appStore, bullets }) => (
-  <div className="mt-2">
+  <div className="mt-3">
     <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0">
-      <span className="font-bold text-[13px] text-[#1A1A2E]">{name}</span>
-      <span className="text-[11px] font-mono italic" style={{ color: '#17558F' }}>{stack}</span>
+      <span className="font-bold text-[13.5px] text-[#1A1A2E]">{name}</span>
+      <span className="text-[11.5px] font-mono italic" style={{ color: '#17558F' }}>{stack}</span>
       {url && href && !googlePlay && !appStore && (
         <a href={href} target="_blank" rel="noopener noreferrer"
           className="text-[10.5px] underline" style={{ color: '#17558F' }}>{url}</a>
@@ -95,18 +95,18 @@ const ProjectItem = ({ name, stack, url, href, googlePlay, appStore, bullets }) 
 );
 
 const SkillRow = ({ label, value }) => (
-  <p className="text-[11.5px] text-[#374151] leading-snug mt-0.5">
-    <span className="font-bold text-[12px] text-[#1A1A2E]">{label}:&nbsp;</span>{value}
+  <p className="text-[12px] text-[#374151] leading-relaxed mt-1">
+    <span className="font-bold text-[12.5px] text-[#1A1A2E]">{label}:&nbsp;</span>{value}
   </p>
 );
 
 const EduRow = ({ degree, institution, year, pct }) => (
-  <div className="flex flex-wrap justify-between items-baseline mt-1">
+  <div className="flex flex-wrap justify-between items-baseline mt-2">
     <div>
-      <p className="font-bold text-[13px] text-[#1A1A2E]">{degree}</p>
-      <p className="text-[11.5px] italic text-[#6B7280]">{institution}</p>
+      <p className="font-bold text-[13.5px] text-[#1A1A2E]">{degree}</p>
+      <p className="text-[12px] italic text-[#6B7280]">{institution}</p>
     </div>
-    <span className="text-[11px] font-mono text-[#6B7280]">{year} &nbsp;|&nbsp; {pct}</span>
+    <span className="text-[11.5px] font-mono text-[#6B7280]">{year} &nbsp;|&nbsp; {pct}</span>
   </div>
 );
 
@@ -149,7 +149,7 @@ Software Engineer | Full Stack Developer
    
 <SectionTitle>Professional Summary</SectionTitle>
 
-<p className="text-[13px] text-[#374151] leading-snug">
+<p className="text-[13.5px] text-[#374151] leading-relaxed">
   Results-driven <strong>Software Engineer</strong> with <strong>2+ years of hands-on experience</strong> designing, developing, and deploying full-stack web and mobile applications.
   Experienced in <strong>React.js, Next.js, TypeScript, Node.js, Spring Boot, Flutter,
   MySQL, PostgreSQL, MongoDB, Firebase, REST APIs, and JWT Authentication</strong>.
@@ -165,7 +165,7 @@ Software Engineer | Full Stack Developer
       <JobHeader
   title="Software Engineer — Full Stack Developer"
   company="Atmez AI Solutions · Hyderabad, India"
-  dates="July 2024 – Present"
+  dates="January 2025 – Present"
 />
 
 <ul className="mt-1 space-y-0">
@@ -203,6 +203,28 @@ Software Engineer | Full Stack Developer
     Promoted reusable React component architecture across multiple enterprise
     products, improving maintainability and accelerating feature delivery within Agile/Scrum
     development cycles.
+  </Bullet>
+
+</ul>
+
+      <JobHeader
+  title="Python Full Stack Developer — Trainee"
+  company="Quality Thoughts (iHub) · Hyderabad, India"
+  dates="July 2024 – December 2024"
+/>
+
+<ul className="mt-1 space-y-0">
+
+  <Bullet>
+    Completed an intensive Python Full Stack training program covering <strong>Python, Django, HTML5, CSS3, JavaScript, and MySQL</strong>, building and deploying functional web applications from the ground up.
+  </Bullet>
+
+  <Bullet>
+    Developed hands-on projects applying the MVT architecture, REST API design, authentication, and relational database modeling with Django and MySQL.
+  </Bullet>
+
+  <Bullet>
+    Strengthened core software engineering fundamentals — data structures, OOP, version control with Git, and debugging — through guided labs and project reviews.
   </Bullet>
 
 </ul>
@@ -434,18 +456,18 @@ Software Engineer | Full Stack Developer
 />
 
 <EduRow
-  degree="Diploma in Computer Engineering"
+  degree="Diploma in Mechnical Engineering"
   institution="Government Polytechnic, Kotagiri (SBTET)"
   year="2021"
   pct="78.69%"
 />
 
-<EduRow
+{/* <EduRow
   degree="Secondary School Certificate (SSC)"
   institution="Vasu High School, Bodhan"
   year="2018"
   pct="88.73%"
-/>
+/> */}
 
 <div
   style={{
@@ -459,7 +481,7 @@ Software Engineer | Full Stack Developer
 <ul className="mt-1 space-y-0">
 
   <Bullet>
-    C# & ASP.NET Core Developer — Microsoft Learn Certification
+    C# & ASP.NET Core Developer — Microsoft Certification
   </Bullet>
 
   <Bullet>
@@ -482,8 +504,8 @@ Software Engineer | Full Stack Developer
       {/* ── LANGUAGES ── */}
 <SectionTitle>Languages</SectionTitle>
 
-<p className="text-[13px] text-[#374151] mt-1">
-  English (Professional), Hindi (Professional), Urdu (Native), Telugu (Conversational)
+<p className="text-[13.5px] text-[#374151] mt-2">
+  English (Professional), Hindi, Telugu (Native), Arabic (Reading)
 </p>
 
         {/* ── CERTIFICATIONS ── */}

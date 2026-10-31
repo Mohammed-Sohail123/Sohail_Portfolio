@@ -4,7 +4,7 @@
 // Output: Mohammed_Sohail_Resume_Flutter.docx in the project root
 
 import { sectionTitle, para, run, bullet, leftRight, buildHeader, skillsGrid,
-         educationSection, languagesSection, writeResume, DARK, ACCENT } from './resume-shared.mjs';
+         educationSection, languagesSection, traineeshipExperience, writeResume, DARK, ACCENT } from './resume-shared.mjs';
 
 const header = buildHeader('Software Engineer | Flutter Developer | Full Stack');
 
@@ -18,13 +18,15 @@ const summarySection = [
 const experience = [
   ...sectionTitle('Professional Experience'),
 
-  leftRight('Software Engineer — Full Stack Developer', 'July 2024 – Present'),
+  leftRight('Software Engineer — Full Stack Developer', 'January 2025 – Present'),
   para(run('Atmez AI Solutions · Hyderabad, India', { color: ACCENT, size: 21 }), 4),
   bullet('Led development and deployment of the Islamic Hijri Calendar Flutter application for Google Play and Apple App Store, reaching 30,000+ downloads.'),
   bullet('Implemented Firebase Authentication, Firebase Cloud Messaging (FCM), Riverpod state management, Hive offline storage, push notifications, and multilingual support.'),
   bullet('Designed the mobile application for a secure, scalable, and offline-first experience across Android and iOS.'),
   bullet('Supported full-stack enterprise products using React.js, Node.js, REST APIs, SQL databases, JWT authentication, and reusable component architecture.'),
   bullet('Built an E-Commerce Platform with Razorpay payments, inventory, authentication, Redis caching, and order tracking.'),
+
+  ...traineeshipExperience,
 ];
 
 const skillsSection = [

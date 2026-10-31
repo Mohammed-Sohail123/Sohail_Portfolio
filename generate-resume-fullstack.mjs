@@ -5,7 +5,7 @@
 // Output: Mohammed_Sohail_Resume_FullStack.docx in the project root
 
 import { sectionTitle, para, run, bullet, leftRight, buildHeader, skillsGrid,
-         educationSection, languagesSection, writeResume, DARK, ACCENT } from './resume-shared.mjs';
+         educationSection, languagesSection, traineeshipExperience, writeResume, DARK, ACCENT } from './resume-shared.mjs';
 
 const header = buildHeader('Software Engineer | Full Stack Developer | React.js | Node.js | TypeScript');
 
@@ -19,7 +19,7 @@ const summarySection = [
 const experience = [
   ...sectionTitle('Professional Experience'),
 
-  leftRight('Software Engineer — Full Stack Developer', 'July 2024 – Present'),
+  leftRight('Software Engineer — Full Stack Developer', 'January 2025 – Present'),
   para(run('Atmez AI Solutions · Hyderabad, India', { color: ACCENT, size: 21 }), 4),
   bullet('Built Atruha Finance, a financial analytics platform using React.js, Node.js, Redux Toolkit, MySQL, and REST APIs, with real-time stock tracking, portfolio management, and interactive dashboards.'),
   bullet('Optimized application performance through REST API optimization, lazy loading, reusable React components, and efficient backend architecture.'),
@@ -29,6 +29,8 @@ const experience = [
   bullet('Built and deployed the Islamic Hijri Calendar Flutter application on Google Play and Apple App Store, reaching 30,000+ downloads with Firebase Authentication, FCM, Riverpod, Hive, and multilingual support.'),
   bullet('Built a full-stack E-Commerce Platform with Razorpay, inventory management, Redis caching, authentication, and order management; improved API response times through caching and query optimization.'),
   bullet('Promoted reusable React component architecture across enterprise products, improving maintainability and accelerating feature delivery within Agile/Scrum cycles.'),
+
+  ...traineeshipExperience,
 ];
 
 const skillsSection = [
