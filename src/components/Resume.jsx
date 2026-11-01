@@ -2,7 +2,21 @@ import React from 'react';
 import { Download } from 'lucide-react';
 
 // ── Print page styles ────────────────────────────────────────────
+// ATS-safe: Arial font stack, ligatures/contextual-alternates disabled, and
+// zero letter-spacing on headings so section names parse as whole words
+// (e.g. "SUMMARY" not "S U M M A R Y") when the PDF text is extracted.
 const printStyles = `
+  .resume {
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant-ligatures: none;
+    font-feature-settings: "liga" 0, "clig" 0, "calt" 0;
+  }
+
+  .resume .resume-heading {
+    letter-spacing: 0 !important;
+    word-spacing: normal;
+  }
+
   @media print {
 
     @page {
@@ -27,8 +41,8 @@ const printStyles = `
 const SectionTitle = ({ children }) => (
   <div className="mt-5 mb-2">
     <h2
-      className="text-[16px] font-bold uppercase tracking-[0.16em]"
-      style={{ color: '#17558F' }}
+      className="resume-heading text-[16px] font-bold uppercase"
+      style={{ color: '#17558F', letterSpacing: 0 }}
     >
       {children}
     </h2>
@@ -92,12 +106,12 @@ const EduRow = ({ degree, institution, year, pct }) => (
 // ── Main component ───────────────────────────────────────────────
 
 const Resume = () => (
-  <div className="bg-slate-100 p-4 md:p-10 print:p-0 print:bg-white font-[Calibri,sans-serif]">
+  <div className="resume bg-slate-100 p-4 md:p-10 print:p-0 print:bg-white">
     <style>{printStyles}</style>
 
     <div
       className="max-w-[860px] mx-auto bg-white shadow-lg print:shadow-none"
-      style={{ fontFamily: 'Calibri, Carlito, Arial, sans-serif' }}
+      style={{ fontFamily: 'Arial, Helvetica, sans-serif' }}
     >
       <div className="px-10 py-8">
 
@@ -125,29 +139,32 @@ const Resume = () => (
         </header>
 
         {/* ── SUMMARY ── */}
-        <SectionTitle>Summary</SectionTitle>
-        <p className="text-[13.5px] text-[#374151] leading-relaxed">
-          <strong>Full Stack Software Engineer</strong> with nearly <strong>2 years of experience</strong> building and
-          deploying production web and mobile applications using <strong>React.js, Node.js, TypeScript, MySQL,
-          PostgreSQL, and Flutter</strong>. Part of the team behind <strong>Atruha Finance</strong>, a live financial
-          analytics platform covering <strong>400+ Saudi Exchange (Tadawul) stocks</strong>, including TASI and Nomu,
-          with paying premium subscribers. Experienced in <strong>REST API design, JWT authentication, role-based
-          access control, Redis caching, and Razorpay payment integration</strong>. Published a Flutter app with
-          <strong> 30,000+ downloads</strong> on Google Play and the App Store. Works in Agile teams with CI/CD workflows.
-        </p>
+      <SectionTitle>Summary</SectionTitle>
+<p className="text-[13.5px] text-[#374151] leading-relaxed">
+  <strong>Full Stack Software Engineer</strong> with <strong>nearly 2 years of hands-on experience</strong> building
+  and deploying production web and mobile applications across <strong>fintech, HR, education, and e-commerce</strong>,
+  using <strong>React.js, Node.js, TypeScript, MySQL, PostgreSQL, and Flutter</strong>. Part of the team behind{" "}
+  <strong>Atruha Finance</strong>, a live financial analytics platform covering{" "}
+  <strong>400+ Saudi Exchange (Tadawul) stocks</strong>, including TASI and Nomu, with paying premium subscribers.
+  Also delivered <strong>StafWise</strong> (enterprise HR SaaS), <strong>Acadlync</strong> (academic management
+  platform), and a full-stack <strong>E-Commerce platform</strong> with Razorpay payments. Experienced in{" "}
+  <strong>REST API design, JWT authentication, role-based access control, and Redis caching</strong>. Published a
+  Flutter app with <strong>30,000+ downloads</strong> on Google Play and the App Store. Works in Agile teams with
+  CI/CD workflows.
+</p>
 
         {/* ── TECHNICAL SKILLS ── */}
         <SectionTitle>Technical Skills</SectionTitle>
-        <SkillRow label="Languages" value="JavaScript (ES6+), TypeScript, Java, Python, C#, Dart, SQL" />
-        <SkillRow label="Frontend" value="React.js, Next.js, Redux Toolkit, HTML5, CSS3, Tailwind CSS, Bootstrap, Framer Motion, Three.js" />
-        <SkillRow label="Backend" value="Node.js, Express.js, REST APIs, JWT Authentication, Role-Based Access Control (RBAC), WebSocket, Spring Boot, ASP.NET Core" />
-        <SkillRow label="Databases" value="MySQL, PostgreSQL, MongoDB, Firebase Firestore, Redis" />
-        <SkillRow label="Mobile" value="Flutter, Dart, Firebase, FCM Push Notifications, Riverpod, Hive" />
-        <SkillRow label="DevOps & Cloud" value="Git, GitHub, GitHub Actions, Docker, CI/CD, AWS, Vercel, Render, Hostinger" />
-        <SkillRow label="Tools & Integrations" value="Razorpay, MinIO, SMTP, Google APIs, Postman" />
-        <SkillRow label="Testing" value="Playwright, Unit Testing, API Testing, Debugging" />
-        <SkillRow label="Practices" value="Agile, Scrum, Responsive Design, Component Architecture, Performance Optimization, System Design" />
-        <SkillRow label="Machine Learning (foundational)" value="TensorFlow, Scikit-learn, Pandas, NumPy, NLP, Time Series Analysis" />
+        <SkillRow label="Languages" value="JavaScript (ES6+), TypeScript, Java, Python." />
+        <SkillRow label="Frontend Technologies" value="React.js, Next.js, Redux Toolkit, HTML5, CSS3, Tailwind CSS, Bootstrap, Framer Motion, Three.js." />
+        <SkillRow label="Backend Technologies" value="Node.js, Express.js, REST APIs, JWT Authentication, Role-Based Access Control (RBAC), WebSocket, ASP.NET Core." />
+        <SkillRow label="Databases" value="MySQL, PostgreSQL, MongoDB, Firebase Firestore, Redis." />
+        <SkillRow label="Mobile Technologies" value="Flutter, Dart, Firebase, FCM Push Notifications, Riverpod, Hive." />
+        <SkillRow label="DevOps & Cloud" value="Git, GitHub, GitHub Actions, Docker, CI/CD, AWS, Vercel, Render, Hostinger." />
+        <SkillRow label="Tools & Integrations" value="Razorpay, MinIO, SMTP, Google APIs, Postman." />
+        <SkillRow label="Testing" value="Playwright, Unit Testing, API Testing, Debugging." />
+        <SkillRow label="Practices" value="Agile, Scrum, Responsive Design, Component Architecture, Performance Optimization, System Design." />
+        <SkillRow label="Machine Learning (foundational)" value="TensorFlow, Scikit-learn, Pandas, NumPy, NLP, Time Series Analysis." />
 
         {/* ── PROFESSIONAL EXPERIENCE ── */}
         <SectionTitle>Professional Experience</SectionTitle>
@@ -191,7 +208,7 @@ const Resume = () => (
             Applied the MVT architecture, REST API design, authentication, and relational database modeling with Django and MySQL across hands-on projects.
           </Bullet>
           <Bullet>
-            Strengthened core software engineering fundamentals — data structures, OOP, Git version control, and debugging — through guided labs and project reviews.
+            Strengthened core software engineering fundamentals data structures, OOP, Git version control, and debugging through guided labs and project reviews.
           </Bullet>
         </ul>
 
@@ -219,8 +236,8 @@ const Resume = () => (
         <ProjectItem
           name="Acadlync"
           stack="React.js, TypeScript, PostgreSQL"
-          url="acadlynk.atmez.ai"
-          href="https://acadlynk.atmez.ai"
+          url="acadlynk.com"
+          href="https://acadlynk.com/"
           bullets={[
             'Academic management platform with student enrollment, timetable scheduling, grade management, multi-role authentication, and analytics dashboards.',
           ]}
@@ -287,13 +304,13 @@ const Resume = () => (
           <Bullet>C# &amp; ASP.NET Core Developer — Microsoft Certification</Bullet>
           <Bullet>Python Full Stack Developer — IHUB (Quality Thoughts)</Bullet>
           <Bullet>Data Science &amp; Artificial Intelligence — DataLabs</Bullet>
-          <Bullet>Training ISP First Trainings Contest — Internshala</Bullet>
+          {/* <Bullet>Training ISP First Trainings Contest — Internshala</Bullet> */}
         </ul>
 
         {/* ── LANGUAGES ── */}
         <SectionTitle>Languages</SectionTitle>
         <p className="text-[13.5px] text-[#374151] mt-1">
-          English (Professional), Hindi (Professional), Urdu (Native), Telugu (Conversational)
+          English (Professional), Urdu & Telugu (Native), Arabic (Reading)
         </p>
 
       </div>
@@ -306,6 +323,8 @@ const Resume = () => (
         className="flex items-center gap-2 bg-[#1A1A2E] text-white px-5 py-3 rounded-full shadow-xl hover:bg-slate-700 transition-all text-sm font-bold"
       >
         <Download size={16} /> Export PDF
+
+        
       </button>
     </div>
   </div>
