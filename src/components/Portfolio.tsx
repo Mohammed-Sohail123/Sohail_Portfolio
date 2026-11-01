@@ -40,7 +40,7 @@ function ResumeDownloadMenu() {
 
   return (
     <div className="relative" ref={wrapperRef}>
-      <button
+      {/* <button
         onClick={() => setOpen((prev) => !prev)}
         aria-haspopup="true"
         aria-expanded={open}
@@ -49,7 +49,7 @@ function ResumeDownloadMenu() {
         <Download size={18} />
         Download Resume
         <ChevronDown size={16} className={`transition-transform ${open ? 'rotate-180' : ''}`} />
-      </button>
+      </button> */}
 
       <AnimatePresence>
         {open && (
