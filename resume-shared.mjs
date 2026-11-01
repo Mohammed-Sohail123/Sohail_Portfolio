@@ -147,6 +147,20 @@ export function buildHeader(headline) {
   ];
 }
 
+// ─── Single-column skills list (ATS-friendly; one row per category) ──
+// rows: array of { label, value } rendered as "Label: value" paragraphs.
+export function skillsList(rows) {
+  return rows.map(({ label, value }) =>
+    new Paragraph({
+      spacing: { after: pt(2) },
+      children: [
+        new TextRun({ text: `${label}:  `, bold: true, size: pt(10.5), color: DARK, font: FONT }),
+        new TextRun({ text: value, size: pt(10.5), color: BODY, font: FONT }),
+      ],
+    })
+  );
+}
+
 // ─── Fixed factual traineeship (identical across every variant) ──
 // Honest entry: Python Full Stack training program at Quality Thoughts (iHub),
 // completed before the Atmez AI Solutions role began in January 2025.
