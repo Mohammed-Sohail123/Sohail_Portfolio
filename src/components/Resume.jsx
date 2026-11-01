@@ -52,7 +52,7 @@ const SectionTitle = ({ children }) => (
 
 const Bullet = ({ children }) => (
   <li className="flex items-start gap-2 text-[13.5px] text-[#374151] leading-relaxed mt-1">
-    <span className="mt-[3px] flex-shrink-0 text-[11px]" style={{ color: '#17558F' }}>▸</span>
+    <span className="mt-[2px] flex-shrink-0 text-[13px]" style={{ color: '#17558F' }}>•</span>
     <span>{children}</span>
   </li>
 );
@@ -141,7 +141,7 @@ const Resume = () => (
         {/* ── SUMMARY ── */}
       <SectionTitle>Summary</SectionTitle>
 <p className="text-[13.5px] text-[#374151] leading-relaxed">
-  <strong>Full Stack Software Engineer</strong> with <strong>nearly 2 years of hands-on experience</strong> building
+  <strong>Full Stack Software Engineer</strong> with <strong> 2+ years of hands-on experience</strong> building
   and deploying production web and mobile applications across <strong>fintech, HR, education, and e-commerce</strong>,
   using <strong>React.js, Node.js, TypeScript, MySQL, PostgreSQL, and Flutter</strong>. Part of the team behind{" "}
   <strong>Atruha Finance</strong>, a live financial analytics platform covering{" "}
@@ -157,13 +157,13 @@ const Resume = () => (
         <SectionTitle>Technical Skills</SectionTitle>
         <SkillRow label="Languages" value="JavaScript (ES6+), TypeScript, Java, Python." />
         <SkillRow label="Frontend Technologies" value="React.js, Next.js, Redux Toolkit, HTML5, CSS3, Tailwind CSS, Bootstrap, Framer Motion, Three.js." />
-        <SkillRow label="Backend Technologies" value="Node.js, Express.js, REST APIs, JWT Authentication, Role-Based Access Control (RBAC), WebSocket, ASP.NET Core." />
+        <SkillRow label="Backend Technologies" value="Node.js, Express.js, Django, REST APIs, JWT Authentication, Role-Based Access Control (RBAC), WebSocket, ASP.NET Core." />
         <SkillRow label="Databases" value="MySQL, PostgreSQL, MongoDB, Firebase Firestore, Redis." />
         <SkillRow label="Mobile Technologies" value="Flutter, Dart, Firebase, FCM Push Notifications, Riverpod, Hive." />
         <SkillRow label="DevOps & Cloud" value="Git, GitHub, GitHub Actions, Docker, CI/CD, AWS, Vercel, Render, Hostinger." />
         <SkillRow label="Tools & Integrations" value="Razorpay, MinIO, SMTP, Google APIs, Postman." />
         <SkillRow label="Testing" value="Playwright, Unit Testing, API Testing, Debugging." />
-        <SkillRow label="Practices" value="Agile, Scrum, Responsive Design, Component Architecture, Performance Optimization, System Design." />
+        <SkillRow label="Practices" value="Agile, Scrum, OOP, Data Structures, Responsive Design, Component Architecture, Performance Optimization, System Design." />
         <SkillRow label="Machine Learning (foundational)" value="TensorFlow, Scikit-learn, Pandas, NumPy, NLP, Time Series Analysis." />
 
         {/* ── PROFESSIONAL EXPERIENCE ── */}
@@ -208,7 +208,7 @@ const Resume = () => (
             Applied the MVT architecture, REST API design, authentication, and relational database modeling with Django and MySQL across hands-on projects.
           </Bullet>
           <Bullet>
-            Strengthened core software engineering fundamentals data structures, OOP, Git version control, and debugging through guided labs and project reviews.
+            Strengthened core software engineering fundamentals: data structures, OOP, Git version control, and debugging through guided labs and project reviews.
           </Bullet>
         </ul>
 
