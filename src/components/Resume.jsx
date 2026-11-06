@@ -145,7 +145,7 @@ const Resume = () => (
   and deploying production web and mobile applications across <strong>fintech, HR, education, and e-commerce</strong>,
   using <strong>React.js, Node.js, TypeScript, MySQL, PostgreSQL, and Flutter</strong>. Part of the team behind{" "}
   <strong>Atruha Finance</strong>, a live financial analytics platform covering{" "}
-  <strong>400+ Saudi Exchange (Tadawul) stocks</strong>, including TASI and Nomu, with paying premium subscribers.
+  <strong>350+ Saudi Exchange (Tadawul) stocks</strong>, including TASI and Nomu, with paying premium subscribers.
   Also delivered <strong>StafWise</strong> (enterprise HR SaaS), <strong>Acadlync</strong> (academic management
   platform), and a full-stack <strong>E-Commerce platform</strong> with Razorpay payments. Experienced in{" "}
   <strong>REST API design, JWT authentication, role-based access control, and Redis caching</strong>. Published a
@@ -156,7 +156,7 @@ const Resume = () => (
         {/* ── TECHNICAL SKILLS ── */}
         <SectionTitle>Technical Skills</SectionTitle>
         <SkillRow label="Languages" value="JavaScript (ES6+), TypeScript, Java, Python." />
-        <SkillRow label="Frontend Technologies" value="React.js, Next.js, Redux Toolkit, HTML5, CSS3, Tailwind CSS, Bootstrap, Framer Motion, Three.js." />
+        <SkillRow label="Frontend Technologies" value="React.js, Next.js, Redux Toolkit, HTML5, CSS3, Tailwind CSS, Bootstrap." />
         <SkillRow label="Backend Technologies" value="Node.js, Express.js, Django, REST APIs, JWT Authentication, Role-Based Access Control (RBAC), WebSocket, ASP.NET Core." />
         <SkillRow label="Databases" value="MySQL, PostgreSQL, MongoDB, Firebase Firestore, Redis." />
         <SkillRow label="Mobile Technologies" value="Flutter, Dart, Firebase, FCM Push Notifications, Riverpod, Hive." />
@@ -176,7 +176,7 @@ const Resume = () => (
         />
         <ul className="mt-1">
           <Bullet>
-            Built <strong>Atruha Finance</strong>, a live financial analytics platform covering <strong>400+ Tadawul stocks</strong> (TASI and Nomu) with paying premium subscribers, using React.js, Redux Toolkit, Node.js, MySQL, and REST APIs.
+            Built <strong>Atruha Finance</strong>, a live financial analytics platform covering <strong>350+ Tadawul stocks</strong> (TASI and Nomu) with paying premium subscribers, using React.js, Redux Toolkit, Node.js, MySQL, and REST APIs.
           </Bullet>
           <Bullet>
             Delivered real-time stock tracking, portfolio management, and interactive dashboards; improved dashboard load times through API optimization, lazy loading, and reusable components.
@@ -210,7 +210,7 @@ const Resume = () => (
           <Bullet>
             Strengthened core software engineering fundamentals: data structures, OOP, Git version control, and debugging through guided labs and project reviews.
           </Bullet>
-        </ul>
+        </ul> 
 
         {/* ── PROJECTS ── */}
         <SectionTitle>Projects</SectionTitle>
@@ -221,7 +221,9 @@ const Resume = () => (
           url="atruhafinance.com"
           href="https://atruhafinance.com"
           bullets={[
-            'Live Tadawul analytics platform with real-time stock tracking, portfolio management, interactive dashboards, and JWT-based authentication.',
+            'Live Tadawul analytics platform covering 350+ listed companies (TASI and Nomu), with real-time stock tracking, portfolio management and JWT-based auth, serving 1,100+ registered users with paying premium subscribers on monthly, quarterly and annual plans.',
+            "Built a bilingual (English/Arabic) interface with reusable components; local Lighthouse tests scored 74 (Performance), 100 (Best Practices) and 92 (SEO), with LCP 1.71 s, CLS 0.00 and INP 48 ms."
+            
           ]}
         />
         <ProjectItem
@@ -264,10 +266,11 @@ const Resume = () => (
           googlePlay="https://play.google.com/store/apps/details?id=com.atmezai.islamichijricalendar"
           appStore="https://apps.apple.com/us/app/islamic-hijri-calendar/id6749267607"
           bullets={[
-            'Cross-platform Islamic calendar app with 30,000+ downloads, offline-first storage, push notifications, and multilingual support.',
+            'Cross-platform Islamic calendar app published on both Google Play and the App Store, with 50,000+ downloads and a 4.6★ rating (117 reviews) on Google Play, built with offline-first storage (Hive) and multilingual support.',
+            'Led the full development and release on both stores, with Firebase Authentication, FCM push notifications for Islamic events, custom event reminders, date adjustment and light/dark themes.'
           ]}
         />
-        <ProjectItem
+        {/* <ProjectItem
           name="Developer Portfolio"
           stack="React.js, Vite, Tailwind CSS, Framer Motion"
           url="sohail-portfolio-five.vercel.app"
@@ -275,7 +278,7 @@ const Resume = () => (
           bullets={[
             'Animated, responsive portfolio with SEO optimization and automated deployment using GitHub Actions and Vercel CI/CD.',
           ]}
-        />
+        /> */}
 
         {/* ── EDUCATION ── */}
         <SectionTitle>Education</SectionTitle>
