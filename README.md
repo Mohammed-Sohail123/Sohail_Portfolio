@@ -40,7 +40,7 @@ I enjoy working across the complete software development lifecycle — from desi
 
 I've contributed to and built production solutions across **finance, HR, education, e-commerce, and AI-related domains**.
 
-One of my published mobile applications has reached **30,000+ downloads** across Google Play and the Apple App Store.
+One of my published mobile applications has reached **50,000+ downloads** across Google Play and the Apple App Store.
 
 ### 🚀 What I Do
 
@@ -239,7 +239,7 @@ Enterprise HR management software designed to streamline employee onboarding, at
 
 ---
 
-# 🎓 Acadlync
+# 🎓 Acadlynk
 
 **Academic Management Platform**
 
@@ -316,7 +316,7 @@ A scalable e-commerce platform with complete product, cart, payment, inventory, 
 
 A published Islamic calendar application built with Flutter and Firebase.
 
-### 📊 30,000+ Downloads
+### 📊 50,000+ Downloads
 
 Available on:
 

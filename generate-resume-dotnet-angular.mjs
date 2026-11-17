@@ -30,7 +30,7 @@ const experience = [
   bullet('Built enterprise full-stack applications with secure REST APIs, JWT authentication, role-based access control, SQL databases, and React.js frontends.'),
   bullet('Built Atruha Finance with React.js, Node.js, Redux Toolkit, MySQL, and REST APIs, including financial dashboards, stock tracking, portfolio management, and performance optimization.'),
   bullet('Contributed to StafWise and the Employee Management System, covering attendance, payroll, leave, reporting, analytics dashboards, and role-based access control.'),
-  bullet('Developed Acadlync with multi-role authentication and REST APIs for enrollment, timetables, and grade management.'),
+  bullet('Developed Acadlynk with multi-role authentication and REST APIs for enrollment, timetables, and grade management.'),
   bullet('Built an E-Commerce Platform with Razorpay, Redis caching, authentication, and order management.'),
 
   ...traineeshipExperience,

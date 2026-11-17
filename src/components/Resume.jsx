@@ -146,10 +146,10 @@ const Resume = () => (
   using <strong>React.js, Node.js, TypeScript, MySQL, PostgreSQL, and Flutter</strong>. Part of the team behind{" "}
   <strong>Atruha Finance</strong>, a live financial analytics platform covering{" "}
   <strong>350+ Saudi Exchange (Tadawul) stocks</strong>, including TASI and Nomu, with paying premium subscribers.
-  Also delivered <strong>StafWise</strong> (enterprise HR SaaS), <strong>Acadlync</strong> (academic management
+  Also delivered <strong>StafWise</strong> (enterprise HR SaaS), <strong>Acadlynk</strong> (academic management
   platform), and a full-stack <strong>E-Commerce platform</strong> with Razorpay payments. Experienced in{" "}
   <strong>REST API design, JWT authentication, role-based access control, and Redis caching</strong>. Published a
-  Flutter app with <strong>30,000+ downloads</strong> on Google Play and the App Store. Works in Agile teams with
+  Flutter app with <strong>50,000+ downloads</strong> on Google Play and the App Store. Works in Agile teams with
   CI/CD workflows.
 </p>
 
@@ -161,7 +161,7 @@ const Resume = () => (
         <SkillRow label="Databases" value="MySQL, PostgreSQL, MongoDB, Firebase Firestore, Redis." />
         <SkillRow label="Mobile Technologies" value="Flutter, Dart, Firebase, FCM Push Notifications, Riverpod, Hive." />
         <SkillRow label="DevOps & Cloud" value="Git, GitHub, GitHub Actions, Docker, CI/CD, AWS, Vercel, Render, Hostinger." />
-        <SkillRow label="Tools & Integrations" value="Razorpay, MinIO, SMTP, Google APIs, Postman." />
+        <SkillRow label="Tools & Integrations" value="Razorpay, Google APIs, Postman." />
         <SkillRow label="Testing" value="Playwright, Unit Testing, API Testing, Debugging." />
         <SkillRow label="Practices" value="Agile, Scrum, OOP, Data Structures, Responsive Design, Component Architecture, Performance Optimization, System Design." />
         <SkillRow label="Machine Learning (foundational)" value="TensorFlow, Scikit-learn, Pandas, NumPy, NLP, Time Series Analysis." />
@@ -185,17 +185,17 @@ const Resume = () => (
             Contributed to <strong>StafWise</strong>, an enterprise HR management SaaS (React.js, Node.js, MySQL, JWT), automating onboarding, attendance, payroll, and reporting with role-based access across multiple organizational roles.
           </Bullet>
           <Bullet>
-            Developed <strong>Acadlync</strong>, an academic management platform (React.js, TypeScript, PostgreSQL) for administrators, teachers, and students, with REST APIs for enrollment, timetables, and grade tracking.
+            Developed <strong>Acadlynk</strong>, an academic management platform (React.js, TypeScript, PostgreSQL) for administrators, teachers, and students, with REST APIs for enrollment, timetables, and grade tracking.
           </Bullet>
           <Bullet>
-            Led development and release of the <strong>Islamic Hijri Calendar</strong> Flutter app on Google Play and the App Store, reaching <strong>30,000+ downloads</strong>; integrated Firebase Authentication, FCM push notifications, Riverpod state management, Hive offline storage, and multilingual support.
+            Led development and release of the <strong>Islamic Hijri Calendar</strong> Flutter app on Google Play and the App Store, reaching <strong>50,000+ downloads</strong>; integrated Firebase Authentication, FCM push notifications, Riverpod state management, Hive offline storage, and multilingual support.
           </Bullet>
           <Bullet>
             Built a full-stack <strong>E-Commerce Platform</strong> (React.js, Node.js, MySQL) with Razorpay payments, inventory and order management, and authentication; used Redis caching and query optimization to reduce API response times.
           </Bullet>
         </ul>
 
-        <JobHeader
+        {/* <JobHeader
           title="Python Full Stack Developer — Trainee"
           company="Quality Thoughts (iHub) · Hyderabad, India"
           dates="July 2024 – December 2024"
@@ -210,7 +210,7 @@ const Resume = () => (
           <Bullet>
             Strengthened core software engineering fundamentals: data structures, OOP, Git version control, and debugging through guided labs and project reviews.
           </Bullet>
-        </ul> 
+        </ul>  */}
 
         {/* ── PROJECTS ── */}
         <SectionTitle>Projects</SectionTitle>
@@ -236,7 +236,7 @@ const Resume = () => (
           ]}
         />
         <ProjectItem
-          name="Acadlync"
+          name="Acadlynk"
           stack="React.js, TypeScript, PostgreSQL"
           url="acadlynk.com"
           href="https://acadlynk.com/"
@@ -245,10 +245,10 @@ const Resume = () => (
           ]}
         />
         <ProjectItem
-          name="Employee Management System"
+          name="StaffSuite"
           stack="React.js, TypeScript, MySQL, REST APIs"
-          url="ems.atmez.ai"
-          href="https://ems.atmez.ai/"
+          url="staffsuite.in"
+          href="https://staffsuite.in/"
           bullets={[
             'Enterprise system for attendance, leave management, department administration, and analytics dashboards with role-based access; built reusable React components and optimized backend APIs.',
           ]}

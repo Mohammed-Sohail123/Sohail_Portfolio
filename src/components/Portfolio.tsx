@@ -496,7 +496,7 @@ function AboutSection() {
               <p>
                 Currently at <span className="text-purple-400 font-semibold">Atmez Ai Solutions</span>,
                 I've built and shipped multiple production-grade applications — from financial analytics
-                dashboards to cross-platform mobile apps with 30,000+ downloads.
+                dashboards to cross-platform mobile apps with 50,000+ downloads.
               </p>
               <p>
                 I'm driven by the challenge of turning complex problems into elegant digital solutions.

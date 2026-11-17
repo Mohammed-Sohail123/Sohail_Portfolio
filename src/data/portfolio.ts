@@ -94,7 +94,7 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    title: 'Acadlync',
+    title: 'Acadlynk',
     category: 'Professional',
     description: 'Academic administration platform for enrollment, timetables, grade tracking, reporting, and multi-role workflows.',
     technologies: ['React', 'TypeScript', 'PostgreSQL', 'REST APIs'],
@@ -111,7 +111,7 @@ export const projects: Project[] = [
     title: 'Islamic Hijri Calendar',
     category: 'Mobile',
     description: 'Cross-platform Islamic calendar with Hijri conversion, events, prayer notifications, four-language localization, and offline storage.',
-    impact: '30,000+ downloads across the mobile stores.',
+    impact: '50,000+ downloads across the mobile stores.',
     technologies: ['Flutter', 'Firebase', 'Riverpod', 'Hive', 'FCM'],
     storeLinks: [
       { label: 'Google Play', url: 'https://play.google.com/store/apps/details?id=com.atmezai.islamichijricalendar' },
@@ -190,7 +190,7 @@ export const resumeVariants: ResumeVariant[] = [
   },
   {
     label: 'Flutter / Mobile',
-    description: 'Flutter, Dart, Firebase — 30K+ downloads app',
+    description: 'Flutter, Dart, Firebase — 50K+ downloads app',
     file: '/resumes/Mohammed_Sohail_Resume_Flutter.pdf',
   },
   {

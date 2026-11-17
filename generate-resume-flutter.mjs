@@ -11,7 +11,7 @@ const header = buildHeader('Software Engineer | Flutter Developer | Full Stack')
 const summarySection = [
   ...sectionTitle('Professional Summary'),
   para(run(
-    'Software Engineer with 2+ years of software development experience and hands-on mobile application delivery using Flutter and Dart. Led development and deployment of a cross-platform Islamic Hijri Calendar application published on Google Play and Apple App Store, reaching 30,000+ downloads. Experienced with Firebase Authentication, FCM, Riverpod, Hive, multilingual support, and offline-first mobile architecture, with additional full-stack experience in React.js, Node.js, REST APIs, SQL, and JWT.'
+    'Software Engineer with 2+ years of software development experience and hands-on mobile application delivery using Flutter and Dart. Led development and deployment of a cross-platform Islamic Hijri Calendar application published on Google Play and Apple App Store, reaching 50,000+ downloads. Experienced with Firebase Authentication, FCM, Riverpod, Hive, multilingual support, and offline-first mobile architecture, with additional full-stack experience in React.js, Node.js, REST APIs, SQL, and JWT.'
   ), 6),
 ];
 
@@ -20,7 +20,7 @@ const experience = [
 
   leftRight('Software Engineer — Full Stack Developer', 'January 2025 – Present'),
   para(run('Atmez AI Solutions · Hyderabad, India', { color: ACCENT, size: 21 }), 4),
-  bullet('Led development and deployment of the Islamic Hijri Calendar Flutter application for Google Play and Apple App Store, reaching 30,000+ downloads.'),
+  bullet('Led development and deployment of the Islamic Hijri Calendar Flutter application for Google Play and Apple App Store, reaching 50,000+ downloads.'),
   bullet('Implemented Firebase Authentication, Firebase Cloud Messaging (FCM), Riverpod state management, Hive offline storage, push notifications, and multilingual support.'),
   bullet('Designed the mobile application for a secure, scalable, and offline-first experience across Android and iOS.'),
   bullet('Supported full-stack enterprise products using React.js, Node.js, REST APIs, SQL databases, JWT authentication, and reusable component architecture.'),
@@ -47,7 +47,7 @@ const projects = [
   ...sectionTitle('Key Projects'),
 
   para([run('Islamic Hijri Calendar', { bold: true, color: DARK }), run('  Flutter · Dart · Firebase · Riverpod · Hive · FCM  ', { color: ACCENT, italics: true }), run('Google Play · Apple App Store', { color: ACCENT })]),
-  bullet('Published a cross-platform Islamic calendar application on Google Play and Apple App Store, reaching 30,000+ downloads.'),
+  bullet('Published a cross-platform Islamic calendar application on Google Play and Apple App Store, reaching 50,000+ downloads.'),
   bullet('Integrated Firebase Authentication, Firebase Cloud Messaging, Riverpod state management, Hive offline storage, push notifications, and multilingual support.'),
 
   para([run('Atruha Finance', { bold: true, color: DARK }), run('  React.js · Node.js · MySQL · Redux Toolkit  ', { color: ACCENT, italics: true }), run('atruhafinance.com', { color: ACCENT })], 0),

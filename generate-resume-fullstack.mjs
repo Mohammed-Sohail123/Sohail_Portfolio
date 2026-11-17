@@ -12,7 +12,7 @@ const header = buildHeader('Full Stack Software Engineer | React.js, Node.js, Fl
 const summarySection = [
   ...sectionTitle('Summary'),
   para(run(
-    'Full Stack Software Engineer with nearly 2 years of experience building and deploying production web and mobile applications using React.js, Node.js, TypeScript, MySQL, PostgreSQL, and Flutter. Part of the team behind Atruha Finance, a live financial analytics platform covering 400+ Saudi Exchange (Tadawul) stocks, including TASI and Nomu, with paying premium subscribers. Experienced in REST API design, JWT authentication, role-based access control, Redis caching, and Razorpay payment integration. Published a Flutter app with 30,000+ downloads on Google Play and the App Store. Works in Agile teams with CI/CD workflows.'
+    'Full Stack Software Engineer with nearly 2 years of experience building and deploying production web and mobile applications using React.js, Node.js, TypeScript, MySQL, PostgreSQL, and Flutter. Part of the team behind Atruha Finance, a live financial analytics platform covering 400+ Saudi Exchange (Tadawul) stocks, including TASI and Nomu, with paying premium subscribers. Experienced in REST API design, JWT authentication, role-based access control, Redis caching, and Razorpay payment integration. Published a Flutter app with 50,000+ downloads on Google Play and the App Store. Works in Agile teams with CI/CD workflows.'
   ), 6),
 ];
 
@@ -40,8 +40,8 @@ const experience = [
   bullet('Built Atruha Finance, a live financial analytics platform covering 400+ Tadawul stocks (TASI and Nomu) with paying premium subscribers, using React.js, Redux Toolkit, Node.js, MySQL, and REST APIs.'),
   bullet('Delivered real-time stock tracking, portfolio management, and interactive dashboards; improved dashboard load times through API optimization, lazy loading, and reusable components.'),
   bullet('Contributed to StafWise, an enterprise HR management SaaS (React.js, Node.js, MySQL, JWT), automating onboarding, attendance, payroll, and reporting with role-based access across multiple organizational roles.'),
-  bullet('Developed Acadlync, an academic management platform (React.js, TypeScript, PostgreSQL) for administrators, teachers, and students, with REST APIs for enrollment, timetables, and grade tracking.'),
-  bullet('Led development and release of the Islamic Hijri Calendar Flutter app on Google Play and the App Store, reaching 30,000+ downloads; integrated Firebase Authentication, FCM push notifications, Riverpod state management, Hive offline storage, and multilingual support.'),
+  bullet('Developed Acadlynk, an academic management platform (React.js, TypeScript, PostgreSQL) for administrators, teachers, and students, with REST APIs for enrollment, timetables, and grade tracking.'),
+  bullet('Led development and release of the Islamic Hijri Calendar Flutter app on Google Play and the App Store, reaching 50,000+ downloads; integrated Firebase Authentication, FCM push notifications, Riverpod state management, Hive offline storage, and multilingual support.'),
   bullet('Built a full-stack E-Commerce Platform (React.js, Node.js, MySQL) with Razorpay payments, inventory and order management, and authentication; used Redis caching and query optimization to reduce API response times.'),
 
   ...traineeshipExperience,
@@ -56,7 +56,7 @@ const projects = [
   para([run('StafWise', { bold: true, color: DARK }), run('  (React.js, Node.js, MySQL, Tailwind CSS)  ', { color: ACCENT, italics: true }), run('stafwise.com', { color: ACCENT })], 0),
   bullet('HR management platform covering onboarding, attendance, payroll, scheduling, and role-based access, with secure REST APIs and reporting dashboards.'),
 
-  para([run('Acadlync', { bold: true, color: DARK }), run('  (React.js, TypeScript, PostgreSQL)  ', { color: ACCENT, italics: true }), run('acadlynk.atmez.ai', { color: ACCENT })], 0),
+  para([run('Acadlynk', { bold: true, color: DARK }), run('  (React.js, TypeScript, PostgreSQL)  ', { color: ACCENT, italics: true }), run('acadlynk.atmez.ai', { color: ACCENT })], 0),
   bullet('Academic management platform with student enrollment, timetable scheduling, grade management, multi-role authentication, and analytics dashboards.'),
 
   para([run('Employee Management System', { bold: true, color: DARK }), run('  (React.js, TypeScript, MySQL, REST APIs)  ', { color: ACCENT, italics: true }), run('ems.atmez.ai', { color: ACCENT })], 0),
@@ -66,7 +66,7 @@ const projects = [
   bullet('Product catalog, shopping cart, Razorpay checkout, inventory management, and order tracking; Redis caching and query optimization improved API response times.'),
 
   para([run('Islamic Hijri Calendar', { bold: true, color: DARK }), run('  (Flutter, Dart, Firebase, Riverpod, Hive, FCM)  ', { color: ACCENT, italics: true }), run('Google Play & Apple App Store', { color: ACCENT })], 0),
-  bullet('Cross-platform Islamic calendar app with 30,000+ downloads, offline-first storage, push notifications, and multilingual support.'),
+  bullet('Cross-platform Islamic calendar app with 50,000+ downloads, offline-first storage, push notifications, and multilingual support.'),
 
   para([run('Developer Portfolio', { bold: true, color: DARK }), run('  (React.js, Vite, Tailwind CSS, Framer Motion)  ', { color: ACCENT, italics: true }), run('sohail-portfolio-five.vercel.app', { color: ACCENT })], 0),
   bullet('Animated, responsive portfolio with SEO optimization and automated deployment using GitHub Actions and Vercel CI/CD.'),
