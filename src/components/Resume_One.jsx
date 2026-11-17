@@ -149,12 +149,12 @@ const Resume_One = () => (
 
         {/* ── TECHNICAL SKILLS ── */}
         <SectionTitle>Technical Skills</SectionTitle>
-        <SkillRow label="Databases" value="MySQL, PostgreSQL, MongoDB, Redis, Firebase Firestore." />
+        <SkillRow label="Databases" value="MySQL, PostgreSQL, Amazon RDS, MongoDB, Redis, Firebase Firestore." />
         <SkillRow label="Database Development" value="SQL, relational schema design and data modeling, normalization, joins and aggregations, query optimization, caching strategies, reporting queries for dashboards." />
         <SkillRow label="Data Access & Backend" value="Node.js, Express.js, Django ORM, ASP.NET Core, REST APIs, JWT Authentication, Role-Based Access Control (RBAC)." />
         <SkillRow label="Languages" value="SQL, JavaScript (ES6+), TypeScript, Python, C#, Java." />
         <SkillRow label="Data & Analytics (foundational)" value="Python, Pandas, NumPy, Time Series Analysis." />
-        <SkillRow label="DevOps & Cloud" value="Git, GitHub, GitHub Actions, Docker, CI/CD, AWS." />
+        <SkillRow label="DevOps & Cloud" value="Git, GitHub, GitHub Actions, Docker, CI/CD, AWS (EC2, S3, RDS)." />
         <SkillRow label="Tools" value="Postman, MinIO." />
         <SkillRow label="Practices" value="Agile, Scrum, OOP, Data Structures, Performance Optimization, System Design." />
 
@@ -181,6 +181,9 @@ const Resume_One = () => (
           </Bullet>
           <Bullet>
             Built the <strong>MySQL</strong> backend for an <strong>E-Commerce Platform</strong> with inventory, order, and payment data; used <strong>Redis caching</strong> and query optimization to reduce API response times.
+          </Bullet>
+          <Bullet>
+            Ran production MySQL databases on <strong>Amazon RDS</strong> (managed database service), with Node.js application servers on <strong>AWS EC2</strong> and file storage in <strong>Amazon S3</strong>.
           </Bullet>
           <Bullet>
             Delivered an Employee Management System (MySQL) for attendance, leave, and department data with analytics dashboards and role-based access.

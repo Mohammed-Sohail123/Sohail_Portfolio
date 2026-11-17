@@ -148,8 +148,8 @@ const Resume = () => (
   <strong>350+ Saudi Exchange (Tadawul) stocks</strong>, including TASI and Nomu, with paying premium subscribers.
   Also delivered <strong>StafWise</strong> (enterprise HR SaaS), <strong>Acadlynk</strong> (academic management
   platform), and a full-stack <strong>E-Commerce platform</strong> with Razorpay payments. Experienced in{" "}
-  <strong>REST API design, JWT authentication, role-based access control, and Redis caching</strong>. Published a
-  Flutter app with <strong>50,000+ downloads</strong> on Google Play and the App Store. Works in Agile teams with
+  <strong>REST API design, JWT authentication, role-based access control, Redis caching, and AWS (EC2, S3, RDS)</strong>.
+  Co-developed and published a Flutter app with <strong>50,000+ downloads</strong> on Google Play and the App Store. Works in Agile teams with
   CI/CD workflows.
 </p>
 
@@ -160,11 +160,11 @@ const Resume = () => (
         <SkillRow label="Backend Technologies" value="Node.js, Express.js, Django, REST APIs, JWT Authentication, Role-Based Access Control (RBAC), WebSocket, ASP.NET Core." />
         <SkillRow label="Databases" value="MySQL, PostgreSQL, MongoDB, Firebase Firestore, Redis." />
         <SkillRow label="Mobile Technologies" value="Flutter, Dart, Firebase, FCM Push Notifications, Riverpod, Hive." />
-        <SkillRow label="DevOps & Cloud" value="Git, GitHub, GitHub Actions, Docker, CI/CD, AWS, Vercel, Render, Hostinger." />
+        <SkillRow label="DevOps & Cloud" value="Git, GitHub, GitHub Actions, Docker, CI/CD, AWS (EC2, S3, RDS), Vercel, Render, Hostinger." />
         <SkillRow label="Tools & Integrations" value="Razorpay, Google APIs, Postman." />
         <SkillRow label="Testing" value="Playwright, Unit Testing, API Testing, Debugging." />
         <SkillRow label="Practices" value="Agile, Scrum, OOP, Data Structures, Responsive Design, Component Architecture, Performance Optimization, System Design." />
-        <SkillRow label="Machine Learning (foundational)" value="TensorFlow, Scikit-learn, Pandas, NumPy, NLP, Time Series Analysis." />
+        {/* <SkillRow label="Machine Learning (foundational)" value="TensorFlow, Scikit-learn, Pandas, NumPy, NLP, Time Series Analysis." /> */}
 
         {/* ── PROFESSIONAL EXPERIENCE ── */}
         <SectionTitle>Professional Experience</SectionTitle>
@@ -188,10 +188,13 @@ const Resume = () => (
             Developed <strong>Acadlynk</strong>, an academic management platform (React.js, TypeScript, PostgreSQL) for administrators, teachers, and students, with REST APIs for enrollment, timetables, and grade tracking.
           </Bullet>
           <Bullet>
-            Led development and release of the <strong>Islamic Hijri Calendar</strong> Flutter app on Google Play and the App Store, reaching <strong>50,000+ downloads</strong>; integrated Firebase Authentication, FCM push notifications, Riverpod state management, Hive offline storage, and multilingual support.
+            Co-developed and published the <strong>Islamic Hijri Calendar</strong> Flutter app on Google Play and the App Store, reaching <strong>50,000+ downloads</strong>; integrated Firebase Authentication, FCM push notifications, Riverpod state management, Hive offline storage, and multilingual support.
           </Bullet>
           <Bullet>
             Built a full-stack <strong>E-Commerce Platform</strong> (React.js, Node.js, MySQL) with Razorpay payments, inventory and order management, and authentication; used Redis caching and query optimization to reduce API response times.
+          </Bullet>
+          <Bullet>
+            Deployed Node.js backend services on <strong>AWS EC2</strong>, used <strong>Amazon S3</strong> for file and asset storage, and ran MySQL databases on <strong>Amazon RDS</strong>.
           </Bullet>
         </ul>
 
@@ -222,7 +225,7 @@ const Resume = () => (
           href="https://atruhafinance.com"
           bullets={[
             'Live Tadawul analytics platform covering 350+ listed companies (TASI and Nomu), with real-time stock tracking, portfolio management and JWT-based auth, serving 1,100+ registered users with paying premium subscribers on monthly, quarterly and annual plans.',
-            "Built a bilingual (English/Arabic) interface with reusable components; local Lighthouse tests scored 74 (Performance), 100 (Best Practices) and 92 (SEO), with LCP 1.71 s, CLS 0.00 and INP 48 ms."
+            "Built a bilingual (English/Arabic) interface with reusable components; Lighthouse scores of 100 for Best Practices and SEO, with LCP 1.56 s, CLS 0.09 and INP 40 ms (all rated good by Chrome)."
             
           ]}
         />
@@ -267,7 +270,7 @@ const Resume = () => (
           appStore="https://apps.apple.com/us/app/islamic-hijri-calendar/id6749267607"
           bullets={[
             'Cross-platform Islamic calendar app published on both Google Play and the App Store, with 50,000+ downloads and a 4.6★ rating (117 reviews) on Google Play, built with offline-first storage (Hive) and multilingual support.',
-            'Led the full development and release on both stores, with Firebase Authentication, FCM push notifications for Islamic events, custom event reminders, date adjustment and light/dark themes.'
+            'Co-developed and released on both stores, with Firebase Authentication, FCM push notifications for Islamic events, custom event reminders, date adjustment and light/dark themes.'
           ]}
         />
         {/* <ProjectItem

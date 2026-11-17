@@ -27,7 +27,7 @@ const experience = [
   bullet('Built full-stack enterprise applications using React.js, Node.js, REST APIs, MySQL/PostgreSQL, and JWT authentication across finance, HR, education, and e-commerce products.'),
   bullet('Built Atruha Finance, a financial analytics platform with real-time stock tracking, portfolio management, and interactive dashboards using React.js, Node.js, and MySQL.'),
   bullet('Contributed to StafWise, an enterprise HR management SaaS automating attendance, payroll, and reporting workflows.'),
-  bullet('Led development and deployment of the Islamic Hijri Calendar Flutter application, reaching 50,000+ downloads on Google Play and the Apple App Store.'),
+  bullet('Developed and published the Islamic Hijri Calendar Flutter application with my team, reaching 50,000+ downloads on Google Play and the Apple App Store.'),
   bullet('Built an E-Commerce Platform with Razorpay payments, inventory management, Redis caching, and database query optimization.'),
 
   ...traineeshipExperience,

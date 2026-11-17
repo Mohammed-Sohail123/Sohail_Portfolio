@@ -24,7 +24,7 @@ const skillsSection = [
     { label: 'Backend', value: 'Node.js, Express.js, REST APIs, JWT Authentication, Role-Based Access Control (RBAC), WebSocket, Spring Boot, ASP.NET Core' },
     { label: 'Databases', value: 'MySQL, PostgreSQL, MongoDB, Firebase Firestore, Redis' },
     { label: 'Mobile', value: 'Flutter, Dart, Firebase, FCM Push Notifications, Riverpod, Hive' },
-    { label: 'DevOps & Cloud', value: 'Git, GitHub, GitHub Actions, Docker, CI/CD, AWS, Vercel, Render, Hostinger' },
+    { label: 'DevOps & Cloud', value: 'Git, GitHub, GitHub Actions, Docker, CI/CD, AWS (EC2, S3, RDS), Vercel, Render, Hostinger' },
     { label: 'Tools & Integrations', value: 'Razorpay, MinIO, SMTP, Google APIs, Postman' },
     { label: 'Testing', value: 'Playwright, Unit Testing, API Testing, Debugging' },
     { label: 'Practices', value: 'Agile, Scrum, Responsive Design, Component Architecture, Performance Optimization, System Design' },
@@ -41,8 +41,9 @@ const experience = [
   bullet('Delivered real-time stock tracking, portfolio management, and interactive dashboards; improved dashboard load times through API optimization, lazy loading, and reusable components.'),
   bullet('Contributed to StafWise, an enterprise HR management SaaS (React.js, Node.js, MySQL, JWT), automating onboarding, attendance, payroll, and reporting with role-based access across multiple organizational roles.'),
   bullet('Developed Acadlynk, an academic management platform (React.js, TypeScript, PostgreSQL) for administrators, teachers, and students, with REST APIs for enrollment, timetables, and grade tracking.'),
-  bullet('Led development and release of the Islamic Hijri Calendar Flutter app on Google Play and the App Store, reaching 50,000+ downloads; integrated Firebase Authentication, FCM push notifications, Riverpod state management, Hive offline storage, and multilingual support.'),
+  bullet('Developed and published the Islamic Hijri Calendar Flutter app with my team on Google Play and the App Store, reaching 50,000+ downloads; integrated Firebase Authentication, FCM push notifications, Riverpod state management, Hive offline storage, and multilingual support.'),
   bullet('Built a full-stack E-Commerce Platform (React.js, Node.js, MySQL) with Razorpay payments, inventory and order management, and authentication; used Redis caching and query optimization to reduce API response times.'),
+  bullet('Deployed Node.js backend services on AWS EC2, used Amazon S3 for file and asset storage, and ran MySQL databases on Amazon RDS.'),
 
   ...traineeshipExperience,
 ];
